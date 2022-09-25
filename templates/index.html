@@ -9,7 +9,8 @@
             <h3>Account Login</h3>
             <form id = "form" action = "" method = "post">
                 <p>
-                    <input class = "form-control" type = "text" name = "username" placeholder = "">
+                    <input class = "form-control" type = "text" name = "username" id = "username" placeholder = "Enter your username" onkeydown = "validation()">
+                    <span id = "error_username"></span>
                 </p>
                 <p>
                     <input class = "form-control" type = "password" name = "password" placeholder = "Enter your password">
