@@ -8,5 +8,8 @@ function validation(){
 
         return false;
     }
+    else{
+        username_error.textContext = "";
+    }
     
 }
